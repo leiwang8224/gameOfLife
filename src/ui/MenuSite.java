@@ -1,5 +1,4 @@
-package com.holub.ui;
-
+package ui;
 import java.io.*;
 import java.util.*;
 import java.util.logging.*;
@@ -274,7 +273,7 @@ public final class MenuSite
 	 *  If there is a map, but the map has no
 	 *  entry for the item named by the <code>name</code> parameter,
 	 *  then the name is used for the label and a warning is logged to the
-	 *  com.holub.ui stream using the standard java Logging APIs.
+	 *  holub.ui stream using the standard java Logging APIs.
 	 *
 	 *  @param requester	The object that requested that this
 	 *  					line item be added.
@@ -693,7 +692,7 @@ public final class MenuSite
 			if( !m.matches() )	// Malformed input line
 			{
 				item.setText( name );
-				Logger.getLogger("com.holub.ui").warning
+				Logger.getLogger("holub.ui").warning
 				(
 					"Bad "
 					+"name-to-label map entry:"
@@ -722,7 +721,7 @@ public final class MenuSite
 						if( key != null )
 							item.setAccelerator( key );
 						else
-						{	Logger.getLogger("com.holub.ui").warning
+						{	Logger.getLogger("holub.ui").warning
 							( "Malformed shortcut parent specification "
 								+ "in MenuSite map file: "
 								+ shortcut
@@ -986,7 +985,7 @@ public final class MenuSite
 	/*** *************************************************************
 	 * This inner class tests the MenuSite. Do not
 	 * Ship MenuSite$Test.class with your applications. Test the
-	 * code by invoking "java com.holub.tools.MenuSite\$Test".
+	 * code by invoking "java holub.tools.MenuSite\$Test".
 	 * The test code creates three menus:
 	 * <ul>
 	 * <li> A Help menu that contains three line items, each added in
@@ -1030,7 +1029,7 @@ public final class MenuSite
 
 		static public void main( String[] args ) throws Exception
 		{
-			com.holub.tools.Log.toScreen("com.holub.ui");
+			tools.Log.toScreen("holub.ui");
 			UIManager.setLookAndFeel(
 				UIManager.getSystemLookAndFeelClassName() );
 

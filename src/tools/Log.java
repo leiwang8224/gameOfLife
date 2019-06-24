@@ -1,7 +1,5 @@
 // (c) 2003 Allen I Holub. All rights reserved.
-
-package com.holub.tools;
-
+package tools;
 import java.util.logging.*;
 import java.io.*;
 
@@ -16,11 +14,11 @@ import java.io.*;
  *  to go to the console, but the timestamp header will appear, too.
  *	<p>Here's an example:
  *  <pre>
- *  import com.holub.tools.Log;
+ *  import holub.tools.Log;
  *
- *  Log.toScreen("com.holub.tools");
+ *  Log.toScreen("holub.tools");
  *  //...
- *	private static final Logger log = Logger.getLogger("com.holub.tools");
+ *	private static final Logger log = Logger.getLogger("holub.tools");
  *	log.warning( "The sky is falling!" );
  *	</pre>
  *

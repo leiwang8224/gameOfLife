@@ -1,5 +1,3 @@
-package com.holub.tools;
-
 /*******************************************************************
  * This class replaces the Multicaster class that's described in
  * <i>Taming Java Threads</i>. It's better in almost every way
@@ -60,6 +58,7 @@ package com.holub.tools;
  *
  * @include /etc/license.txt
  */
+package tools;
 
 public class Publisher
 {
@@ -224,7 +223,7 @@ public class Publisher
 			catch( Exception e ) { /*everything's okay, do nothing*/ }
 
 			if( errors == 0 )
-				System.err.println("com.holub.tools.Publisher: OKAY");
+				System.err.println("holub.tools.Publisher: OKAY");
 			System.exit( errors );
 		}
 	}

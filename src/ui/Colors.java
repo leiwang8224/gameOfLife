@@ -1,4 +1,4 @@
-package com.holub.ui;
+package ui;
 import java.awt.*;
 
 /*	The Colors interface contains nothing but symbolic constants for various

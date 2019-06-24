@@ -1,5 +1,4 @@
-package com.holub.io;
-
+package io;
 import java.io.*;
 import javax.swing.*;
 import javax.swing.filechooser.FileFilter; // disambiguate from java.io version
@@ -58,7 +57,7 @@ public class Files
 	}
 
 	/** A unit test class for the methods in this class. Run with
-	 *  java com.holub.io.Files\$Test
+	 *  java holub.io.Files\$Test
 	 */
 	static class Test
 	{	

@@ -1,4 +1,5 @@
-package com.holub.life;
+package life;
+
 import java.io.*;
 
 /***

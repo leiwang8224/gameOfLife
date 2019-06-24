@@ -1,5 +1,3 @@
-package com.holub.asynch;
-
 /**
  *	This class is a simplified version of the com.asynch.Condition
  *	class described in Taming Java Threads. It's really supplanted
@@ -22,6 +20,7 @@ package com.holub.asynch;
  *	@include c:/etc/license.txt
  */
 
+package asynch;
 public class ConditionVariable
 {	private volatile boolean isTrue;
 

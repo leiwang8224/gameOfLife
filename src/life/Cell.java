@@ -1,7 +1,8 @@
-package com.holub.life;
-import java.awt.*;
+package life;
 
-import com.holub.life.Storable;
+import java.awt.Graphics;
+import java.awt.Point;
+import java.awt.Rectangle;
 
 /***
  * This interface is the basic unit that comprises a life board.
